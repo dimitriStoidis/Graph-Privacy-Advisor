@@ -5,16 +5,16 @@
 # Installation
 
 ## Requirements
-opencv-python==4.5.5.62
-torchvision=0.9.1
-python=3.9.6
-pytorch=1.8.1
-numpy=1.20.3
+* opencv-python==4.5.5.62
+* torchvision=0.9.1
+* python=3.9.6
+* pytorch=1.8.1
+* numpy=1.20.3
 
 ## Download datasets
-PicAlert: http://l3s.de/picalert/
-VISPR: https://github.com/tribhuvanesh/vpa](https://tribhuvanesh.github.io/vpa/
-PrivacyAlert: https://zenodo.org/record/6406870#.Y2KtsdLP3ow
+* PicAlert: http://l3s.de/picalert/
+* VISPR: https://github.com/tribhuvanesh/vpa](https://tribhuvanesh.github.io/vpa/
+* PrivacyAlert: https://zenodo.org/record/6406870#.Y2KtsdLP3ow
 
 ## Instructions
 1. Clone repository</br>
