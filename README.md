@@ -1,6 +1,6 @@
 # Content-based Graph-Privacy-Advisor
 
-![Graph Privacy Advisor pipeline](/GPA_pipeline.jpg)
+![Graph Privacy Advisor pipeline](/GPA_pipeline.png)
 
 # Installation
 
