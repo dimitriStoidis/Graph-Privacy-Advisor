@@ -26,10 +26,6 @@ and run:</br>
 `conda activate gpa` </br>
 and install the required packages
 
-For training:</br>
-4. Create the json manifests to read the data in `/data_files` folder
-* speaker and gender labels
-* path-to-audio file 
 
 ## Training example
 
@@ -41,7 +37,8 @@ To train the model run: </br>
 
 ### References
 The work is based on:
-https://github.com/guang-yanng/Image_Privacy
+* https://github.com/guang-yanng/Image_Privacy
+* https://github.com/HCPLab-SYSU/SR
 
 ### Cite
 ```
