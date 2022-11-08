@@ -44,6 +44,7 @@ The work is based on:
 https://github.com/guang-yanng/Image_Privacy
 
 ### Cite
+```
 @misc{https://doi.org/10.48550/arxiv.2210.11169,
   doi = {10.48550/ARXIV.2210.11169},
   url = {https://arxiv.org/abs/2210.11169},
@@ -54,7 +55,7 @@ https://github.com/guang-yanng/Image_Privacy
   year = {2022},
   copyright = {Creative Commons Attribution 4.0 International}
 }
-
+```
 ### Contact
 For any enquiries contact dimitrios.stoidis@qmul.ac.uk.
 
