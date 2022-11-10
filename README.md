@@ -13,7 +13,7 @@
 
 ## Download datasets
 * PicAlert: http://l3s.de/picalert/
-* VISPR: https://github.com/tribhuvanesh/vpa](https://tribhuvanesh.github.io/vpa/
+* VISPR: https://tribhuvanesh.github.io/vpa/
 * PrivacyAlert: https://zenodo.org/record/6406870#.Y2KtsdLP3ow
 
 ## Instructions
