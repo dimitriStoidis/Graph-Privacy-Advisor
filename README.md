@@ -48,13 +48,13 @@ The work is based on:
   author = {Stoidis, Dimitrios and Cavallaro, Andrea},
   keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
   title = {Content-based Graph Privacy Advisor},
-  publisher = {arXiv},
+  publisher = {IEEE BigMM},
   year = {2022},
   copyright = {Creative Commons Attribution 4.0 International}
 }
 ```
 ### Contact
-For any enquiries contact dimitrios.stoidis@qmul.ac.uk.
+For any enquiries contact dimitrios.stoidis@qmul.ac.uk, a.cavallaro@qmul.ac.uk
 
 ### Licence
 This work is licensed under the [MIT License](https://github.com/dimitriStoidis/GenGAN/blob/main/LICENSE).
