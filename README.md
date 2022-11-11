@@ -40,6 +40,8 @@ To train the model run: </br>
 The work is based on:
 * https://github.com/guang-yanng/Image_Privacy
 * https://github.com/HCPLab-SYSU/SR
+* https://github.com/CSAILVision/places365
+* https://pjreddie.com/darknet/yolo/
 
 ### Cite
 ```
