@@ -27,6 +27,9 @@ and run:</br>
 `conda activate gpa` </br>
 and install the required packages
 
+## Demo
+To run the demo script run </br>
+`python demo.py --model_name GPA_scene_card --cardinality True --scene True --image_name your_image.jpg`
 
 ## Training example
 
