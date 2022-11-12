@@ -1,7 +1,7 @@
 # Content-based Graph-Privacy-Advisor
 Graph Privacy Advisor (GPA) is an image privacy classifier that uses scene and object cardinality information to predict the privacy of an image.
 GPA refines the relevance of the information extracted from the image and determines the most informative features to be used for the privacy classification task.
-![Graph Privacy Advisor pipeline](/GPA_pipeline.png)<\br>
+![Graph Privacy Advisor pipeline](/GPA_pipeline.png)</br>
 paper: https://arxiv.org/abs/2210.11169
 
 # Installation
