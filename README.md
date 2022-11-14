@@ -7,11 +7,11 @@ paper: https://arxiv.org/abs/2210.11169
 # Installation
 
 ## Requirements
-* opencv-python==4.5.5.62
+* opencv-python==4.5
 * torchvision=0.9.1
-* python=3.9.6
-* pytorch=1.8.1
-* numpy=1.20.3
+* python=3.9
+* pytorch=1.8
+* numpy=1.20
 
 ## Download datasets
 * PicAlert: http://l3s.de/picalert/
@@ -24,9 +24,16 @@ paper: https://arxiv.org/abs/2210.11169
 
 2. From a terminal or an Anaconda Prompt, go to project's root directory
 and run:</br>
-`conda create gpa` </br>
+`conda create --name gpa python=3.9` </br>
 `conda activate gpa` </br>
 and install the required packages
+
+3. Setup Object detection: </br>
+Create a folder named `/config` inside `/data_preprocess_` subdirectory</br>
+Include the COCO object labels and Yolo model configuration files available here: https://github.com/pjreddie/darknet 
+
+4. Setup scene recognition:</br>
+Download ResNet model following instructions available here: https://github.com/CSAILVision/places365
 
 ## Demo
 To run the demo script run </br>
