@@ -30,10 +30,13 @@ and install the required packages
 
 3. Setup Object detection: </br>
 Create a folder named `/config` inside `/data_preprocess_` subdirectory</br>
-Include the COCO object labels and Yolo model configuration files available here: https://github.com/pjreddie/darknet 
+Include the COCO object labels and Yolo model configuration files available here: https://github.com/pjreddie/darknet </br>
+Download pre-trained weights for Yolo running: `wget https://pjreddie.com/media/files/yolov3.weights` in the `/config` directory
+
 
 4. Setup scene recognition:</br>
-Download ResNet model following instructions available here: https://github.com/CSAILVision/places365
+Download ResNet model following instructions available here: https://github.com/CSAILVision/places365 </br>
+For ResNet-18 model run: `wget http://places2.csail.mit.edu/models_places365/resnet18_places365.pth.tar`
 
 ## Demo
 To run the demo script run </br>
