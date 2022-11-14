@@ -1,4 +1,4 @@
-from networks.GPA import GPA
+from networks.gpa import GPA
 import torch
 from sklearn.model_selection import KFold
 from utils import *
