@@ -12,6 +12,8 @@ paper: https://arxiv.org/abs/2210.11169
 * python=3.9
 * pytorch=1.8
 * numpy=1.20
+* sklearn
+* matplotlib
 
 ## Download datasets
 * PicAlert: http://l3s.de/picalert/
