@@ -75,7 +75,7 @@ def get_image(image_name):
 
 
 def evaluate(model_name, img_name):
-    model = load_model(name=model_name + '/best_macro_f1.pth')
+    model = load_model(name=model_name + '_best_macro_f1.pth')
     model = model.cuda()
     model.eval()
 
