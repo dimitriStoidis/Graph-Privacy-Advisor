@@ -1,6 +1,6 @@
 from networks.gpa_demo import GPA_demo
 import torch
-from utils import set_seed, load_model
+from utils import set_seed, load_model, load_classes
 from torch.autograd import Variable
 import torch.nn.functional as F
 import numpy as np
