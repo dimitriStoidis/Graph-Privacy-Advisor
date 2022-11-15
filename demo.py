@@ -13,7 +13,7 @@ from yolov3_objecte_detection import detect_image
 
 p = argparse.ArgumentParser(description='Graph Privacy Advisor')
 p.add_argument('--seed', type=int, default=789)
-p.add_argument('--root_dir', type=str, default='')
+p.add_argument('--root_dir', type=str, default='./')
 p.add_argument('--image_name', type=str, default='xyz.jpg')
 p.add_argument('--model_name', type=str, default='gpa')
 p.add_argument('--cardinality', type=bool, default=True)
@@ -28,8 +28,8 @@ full_transform = transforms.Compose([
     transforms.Resize((448, 448)),  # resize to (3, 448, 448)
     transforms.ToTensor()])
 
-root_dir = './'
-class_path = root_dir + '/data_preprocess_/config/coco.names'
+
+class_path = params.root_dir + '/data_preprocess_/config/coco.names'
 
 
 def get_image(image_name):
