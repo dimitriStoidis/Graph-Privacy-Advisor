@@ -16,10 +16,10 @@ from PIL import Image
 
 def resnet_scene(input_img):
     # th architecture to use
-    arch = 'resnet18'
+    arch = 'resnet50'
 
     # load the pre-trained weights
-    model_file = 'places2csail/%s_places365.pth.tar' % arch
+    model_file = './models/%s_places365.pth.tar' % arch
     if not os.access(model_file, os.W_OK):
         weight_url = 'http://places2.csail.mit.edu/models_places365/' + model_file
         os.system('wget ' + weight_url)
