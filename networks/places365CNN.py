@@ -16,7 +16,7 @@ from PIL import Image
 
 def resnet_scene(input_img):
     # th architecture to use
-    arch = 'resnet50'
+    arch = 'resnet18'
 
     # load the pre-trained weights
     model_file = './models/%s_places365.pth.tar' % arch
